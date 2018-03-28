@@ -17,5 +17,4 @@ app.use((request, response, next) => {
     response.status(500).send(error.message);
 });
 
-
 module.exports = app;
